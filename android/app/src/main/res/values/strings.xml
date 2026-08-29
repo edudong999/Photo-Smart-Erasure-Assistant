@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">照片智能擦除</string>
+    <string name="ai_status_ready">AI 引擎已就绪</string>
+    <string name="ai_status_not_reachable">AI 服务不可用</string>
+    <string name="ai_status_checking">检查中...</string>
+    <string name="select_from_album">从相册选择</string>
+    <string name="take_photo">拍照</string>
+    <string name="history">历史记录</string>
+    <string name="clear_history">清空</string>
+    <string name="no_history">暂无历史记录</string>
+    <string name="brush_size">画笔粗细</string>
+    <string name="undo">撤销</string>
+    <string name="redo">重做</string>
+    <string name="reset">重置</string>
+    <string name="start_erasing">开始 AI 擦除</string>
+    <string name="processing">处理中</string>
+    <string name="task_queued">任务排队中...</string>
+    <string name="ai_fix">AI 正在补全背景纹理与光影...</string>
+    <string name="cancel">取消</string>
+    <string name="save_to_gallery">保存到本地相册</string>
+    <string name="continue_editing">继续涂抹</string>
+    <string name="saved_successfully">已保存到相册</string>
+    <string name="save_failed">保存失败</string>
+    <string name="error_no_mask">请先涂抹要消除的区域</string>
+    <string name="error_upload_failed">上传失败</string>
+    <string name="error_task_failed">处理失败</string>
+    <string name="before">修复前</string>
+    <string name="after">修复后</string>
+</resources>
