@@ -1,0 +1,3 @@
+# 保持 weights/ 目录在 git 中存在。
+# 大模型权重（big-lama.onnx）请通过 scripts/download_weights.py 下载或手动放置，
+# 切勿将权重文件提交到仓库（见 .gitignore）。

@@ -29,8 +29,7 @@ android/.cxx/
 android/captures/
 android/*.iml
 
-# AI 模型权重 / 缓存
-ai-model/weights/
+# AI 模型权重 / 缓存（具体文件类型由 ai-model/.gitignore 排除，这里保留目录本身以便放 .gitkeep）
 ai-model/checkpoints/
 ai-model/.cache/
 
