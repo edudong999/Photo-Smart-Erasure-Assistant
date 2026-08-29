@@ -34,6 +34,10 @@ ai-model/weights/
 ai-model/checkpoints/
 ai-model/.cache/
 
+# AI 模型冒烟测试产物
+ai-model/scripts/outputs/
+ai-model/scripts/_tmp_inputs/
+
 # 测试 / 运行产物
 .pytest_cache/
 .coverage

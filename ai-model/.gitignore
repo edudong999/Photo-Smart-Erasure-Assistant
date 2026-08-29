@@ -1,0 +1,6 @@
+.env
+weights/*.onnx
+weights/*.part
+__pycache__/
+*.pyc
+.pytest_cache/
