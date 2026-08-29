@@ -1,4 +1,4 @@
-# AI 模型推理服务（ai-model）
+# AI 模型推理服务（model）
 
 照片智能擦除小助手的 AI 推理后端：对接专用图像修复 API（LaMa / DashScope Qwen），按 `prompt` 是否为空路由到端侧或云端模型。
 
@@ -11,7 +11,7 @@
 ## 目录结构
 
 ```
-ai-model/
+model/
 ├── main.py                 # FastAPI 入口，提供 POST /inpaint、GET /health
 ├── config.py               # pydantic-settings 配置（读取 .env）
 ├── requirements.txt        # Python 依赖
@@ -116,7 +116,7 @@ InpaintDispatcher.inpaint(image, mask, prompt)
 ## 本地启动
 
 ```bash
-cd ai-model
+cd model
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

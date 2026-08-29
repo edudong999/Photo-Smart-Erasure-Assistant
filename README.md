@@ -21,8 +21,8 @@ Photo Smart Erasure Assistant/
 │   └── README.md                              # 后端启动 / 联调说明
 ├── android/                                 # ⚠️ 移动端（Android，待开发）
 │   └── README.md                            # Android 开发指南
-└── ai-model/                                # ⚠️ AI 模型（待开发）
-    └── README.md                            # AI 模型开发指南
+└── model/                                   # AI 模型推理服务（FastAPI + LaMa + Qwen）
+    └── README.md                            # AI 模型推理服务说明（含 API 契约、缺失项）
 ```
 
 ## 角色分工
@@ -30,7 +30,7 @@ Photo Smart Erasure Assistant/
 | 角色 | 负责 | 当前目录 | 当前状态 |
 |---|---|---|---|
 | 后端 | 接口设计、蒙版对齐、异步 AI 调用、缓存去重、清理 | `backend/` | ✅ v0.1 完成（mock AI） |
-| AI 模型 | LaMa/SD Inpainting 对接、Prompt 调优、多场景测试 | `ai-model/` | ⚠️ 待开发 |
+| AI 模型 | LaMa/SD Inpainting 对接、Prompt 调优、多场景测试 | `model/` | ✅ v0.1 完成（端侧 LaMa + 云端 Qwen 双路由） |
 | 移动端 | 相机/相册、画笔涂抹、Loading、Before/After 对比、本地历史 | `android/` | ⚠️ 待开发 |
 
 ## 联调步骤（建议顺序）
