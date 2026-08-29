@@ -1,0 +1,44 @@
+# IDE / 编辑器
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python（子目录 backend/ 内有自己的 .gitignore，这里只兜底根级）
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 环境变量 / 密钥
+.env
+.env.local
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+android/captures/
+android/*.iml
+
+# AI 模型权重 / 缓存
+ai-model/weights/
+ai-model/checkpoints/
+ai-model/.cache/
+
+# 测试 / 运行产物
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 后端运行时产物（backend/.gitignore 已覆盖 storage/，此处兜底）
+backend/storage/
+backend/storage_test/
